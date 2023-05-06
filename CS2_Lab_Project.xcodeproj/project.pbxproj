@@ -11,6 +11,7 @@
 		F01FE06C2A06F0AD00D9061A /* SortingAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01FE06B2A06F0AC00D9061A /* SortingAlgorithms.cpp */; };
 		F01FE0702A06F18200D9061A /* Quick_Sort_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01FE06D2A06F18200D9061A /* Quick_Sort_1.cpp */; };
 		F01FE0712A06F18200D9061A /* Quick_Sort_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01FE06E2A06F18200D9061A /* Quick_Sort_2.cpp */; };
+		F01FE0762A06F59800D9061A /* Tree_Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01FE0752A06F59800D9061A /* Tree_Sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		F01FE06D2A06F18200D9061A /* Quick_Sort_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quick_Sort_1.cpp; sourceTree = "<group>"; };
 		F01FE06E2A06F18200D9061A /* Quick_Sort_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quick_Sort_2.cpp; sourceTree = "<group>"; };
 		F01FE06F2A06F18200D9061A /* Quick_Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quick_Sort.h; sourceTree = "<group>"; };
+		F01FE0742A06F59800D9061A /* Tree_Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree_Sort.h; sourceTree = "<group>"; };
+		F01FE0752A06F59800D9061A /* Tree_Sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tree_Sort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 		F01FE05F2A06EF9800D9061A /* CS2_Lab_Project */ = {
 			isa = PBXGroup;
 			children = (
+				F01FE0732A06F58C00D9061A /* Tree Sort */,
 				F01FE0722A06F19C00D9061A /* Quick Sort */,
 				F01FE0602A06EF9800D9061A /* main.cpp */,
 				F01FE06B2A06F0AC00D9061A /* SortingAlgorithms.cpp */,
@@ -81,6 +85,15 @@
 				F01FE06E2A06F18200D9061A /* Quick_Sort_2.cpp */,
 			);
 			path = "Quick Sort";
+			sourceTree = "<group>";
+		};
+		F01FE0732A06F58C00D9061A /* Tree Sort */ = {
+			isa = PBXGroup;
+			children = (
+				F01FE0752A06F59800D9061A /* Tree_Sort.cpp */,
+				F01FE0742A06F59800D9061A /* Tree_Sort.h */,
+			);
+			path = "Tree Sort";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 				F01FE0702A06F18200D9061A /* Quick_Sort_1.cpp in Sources */,
 				F01FE0712A06F18200D9061A /* Quick_Sort_2.cpp in Sources */,
 				F01FE0612A06EF9800D9061A /* main.cpp in Sources */,
+				F01FE0762A06F59800D9061A /* Tree_Sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

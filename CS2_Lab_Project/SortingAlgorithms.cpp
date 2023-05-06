@@ -2,7 +2,7 @@
 #include "SortingAlgorithms.h"
 #include<iostream>
 
-Sort_Algorithm::Sort_Algorithm(int y) : size(y), compare(0)
+Sort_Algorithm::Sort_Algorithm(int y) : size(y), compare(0), swaps(0)
 {
     arr = new int[size];
 	Fill();
@@ -24,6 +24,20 @@ int Sort_Algorithm::Get_count() const
     return compare;
 }
 
+int Sort_Algorithm::get_Swaps()const
+{
+    return swaps;
+}
+
+int Sort_Algorithm::getSize() const
+{
+    return size;
+}
+
+int* Sort_Algorithm::getArr() const
+{
+    return arr;
+}
 
 void Sort_Algorithm::Fill()
 {
