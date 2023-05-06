@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F01FE0612A06EF9800D9061A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01FE0602A06EF9800D9061A /* main.cpp */; };
 		F01FE06C2A06F0AD00D9061A /* SortingAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01FE06B2A06F0AC00D9061A /* SortingAlgorithms.cpp */; };
+		F01FE0702A06F18200D9061A /* Quick_Sort_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01FE06D2A06F18200D9061A /* Quick_Sort_1.cpp */; };
+		F01FE0712A06F18200D9061A /* Quick_Sort_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01FE06E2A06F18200D9061A /* Quick_Sort_2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,9 @@
 		F01FE0602A06EF9800D9061A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F01FE06A2A06F0AC00D9061A /* SortingAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortingAlgorithms.h; sourceTree = "<group>"; };
 		F01FE06B2A06F0AC00D9061A /* SortingAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingAlgorithms.cpp; sourceTree = "<group>"; };
+		F01FE06D2A06F18200D9061A /* Quick_Sort_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quick_Sort_1.cpp; sourceTree = "<group>"; };
+		F01FE06E2A06F18200D9061A /* Quick_Sort_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quick_Sort_2.cpp; sourceTree = "<group>"; };
+		F01FE06F2A06F18200D9061A /* Quick_Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quick_Sort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +65,22 @@
 		F01FE05F2A06EF9800D9061A /* CS2_Lab_Project */ = {
 			isa = PBXGroup;
 			children = (
+				F01FE0722A06F19C00D9061A /* Quick Sort */,
 				F01FE0602A06EF9800D9061A /* main.cpp */,
 				F01FE06B2A06F0AC00D9061A /* SortingAlgorithms.cpp */,
 				F01FE06A2A06F0AC00D9061A /* SortingAlgorithms.h */,
 			);
 			path = CS2_Lab_Project;
+			sourceTree = "<group>";
+		};
+		F01FE0722A06F19C00D9061A /* Quick Sort */ = {
+			isa = PBXGroup;
+			children = (
+				F01FE06F2A06F18200D9061A /* Quick_Sort.h */,
+				F01FE06D2A06F18200D9061A /* Quick_Sort_1.cpp */,
+				F01FE06E2A06F18200D9061A /* Quick_Sort_2.cpp */,
+			);
+			path = "Quick Sort";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01FE06C2A06F0AD00D9061A /* SortingAlgorithms.cpp in Sources */,
+				F01FE0702A06F18200D9061A /* Quick_Sort_1.cpp in Sources */,
+				F01FE0712A06F18200D9061A /* Quick_Sort_2.cpp in Sources */,
 				F01FE0612A06EF9800D9061A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
