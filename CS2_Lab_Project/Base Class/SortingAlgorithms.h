@@ -14,8 +14,6 @@ public:
     int Get_count() const;
 	int get_Swaps() const;
 	void Fill();
-    int getSize() const;
-    int *getArr() const;
 	virtual void Sort() = 0;
     virtual void Swap(int &, int &);
   

@@ -29,15 +29,6 @@ int Sort_Algorithm::get_Swaps()const
     return swaps;
 }
 
-int Sort_Algorithm::getSize() const
-{
-    return size;
-}
-
-int* Sort_Algorithm::getArr() const
-{
-    return arr;
-}
 
 void Sort_Algorithm::Fill()
 {
