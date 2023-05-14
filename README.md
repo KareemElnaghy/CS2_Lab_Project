@@ -1,6 +1,4 @@
 # CS2_Lab_Project
 
-Essam Elkholy (6)
-Kareem Elnaghy (6)
-Jana Elmorsy (6)
-Abdelrahman Elhamahmy (6)
+Los Pollos Hermanos 
+Kareem Elnaghy, 900223587 Jana Elmorsy, 900221875 Essam Elkholy, 900222215 Abdelrahman Elhamahmy, 900203161
